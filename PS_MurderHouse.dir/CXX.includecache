@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/AsuszA/CLionProjects/PS_MurderHouse/Game.h
+
+C:/Users/AsuszA/CLionProjects/PS_MurderHouse/main.cpp
+iostream
+-
+string.h
+-
+game.h
+C:/Users/AsuszA/CLionProjects/PS_MurderHouse/Game.h
+
