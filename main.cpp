@@ -109,7 +109,7 @@ int main() {
             case 1:
                 g.p.setPosition(1);
                 g.k.setPositionk(path[i]);
-                if(g.p.getKey()==true)
+                if(checkWin(g.p.getPosition(),g.k.getPositionk(),path[i-2],g.p.getKey())==1)
                     cout<<"Congrats! You survived!";
                 else {
                     if (ok == 0) {
